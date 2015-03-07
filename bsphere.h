@@ -47,9 +47,10 @@
  *                        input array. The indices are vertex numbers, not byte 
  *                        offsets. Useful for processing a subset of a larger
  *                        vertex array.
- *     num_iterations   - The number of times to repeat the expansion phase in 
- *                        an improve the result. For typical inputs there is
- *                        usually little benefit in more than 4 or 8 iterations.
+ *     num_iterations   - Number of times to repeat the expansion phase in an 
+ *                        attempt to improve the solution. For typical inputs 
+ *                        there is usually little benefit in more than 4 or 8 
+ *                        iterations.
  */
 float bounding_sphere(
 	float *out_center,
